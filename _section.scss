@@ -1,0 +1,39 @@
+section {
+    width: 100%;
+    height: 100%;
+
+    & h1 {
+        font-family: Modak;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 54px;
+        line-height: 81px;
+        text-transform: uppercase;
+        color: $primaryFontColor;
+        height: 59px;
+        margin-top: 50px;
+        margin-left: 200px;        
+    }
+    & ul {
+        background-color: white;
+        display: inline-block;
+        border: 1px solid #000000;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 12px;
+        padding: 20px;
+        margin-top: 160px;
+        margin-left: 40%;
+        
+        & li {
+            font-family: Roboto;
+            font-style: normal;
+            font-weight: normal;
+            font-size: 24px;
+            line-height: 16px;
+            color: #460808;
+            list-style-type: circle;
+            list-style-position: inside;
+            padding: 5px;        
+        }
+    }
+}

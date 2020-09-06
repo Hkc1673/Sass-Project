@@ -1,0 +1,46 @@
+.navbar {
+    height: 60px;
+
+    &__logo{
+        position: absolute;
+        display: inline;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        margin-left: 15px;
+    }
+    & ul {
+        float: right;
+        margin-top: 22px;
+        margin-right: 23px;
+        list-style: none;
+
+        & li {
+            display: inline;
+            width: 35px;
+            height: 16px;        
+        }  
+    }
+    &__login {
+        margin-right: 23px;
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: $primaryFontColor;    
+    }
+    &__register {
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 16px;
+        color: #FF0000;
+    }
+    
+}
+
+hr {
+    border: 1px solid #E2E2E2;
+    transform: rotate(0.14deg);
+}
